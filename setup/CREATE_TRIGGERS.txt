@@ -1,0 +1,63 @@
+-- Função para criar a playlist "username top 10"
+CREATE OR REPLACE FUNCTION create_top_10_playlist()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Cria a playlist nomeada como "username top 10" para o novo usuário
+    INSERT INTO playlist (name, isprivate, usuario_id)
+    VALUES (NEW.usuario_id || ' top 10', TRUE, NEW.usuario_id);
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Gatilho para criar a playlist após a inserção de um consumidor
+CREATE TRIGGER create_top_10_playlist_trigger
+AFTER INSERT ON consumer
+FOR EACH ROW
+EXECUTE FUNCTION create_top_10_playlist();
+
+-- Função para registrar a música ouvida e atualizar a playlist "top 10"
+CREATE OR REPLACE FUNCTION record_song_and_update_top_10()
+RETURNS TRIGGER AS $$
+DECLARE
+    new_song_ids integer[];  -- Armazena os IDs das músicas para o top 10
+    index integer := 1;      -- Índice de posição na playlist
+    song_id integer;         -- ID de cada música
+    p_id integer;            -- ID da playlist "top 10" do usuário
+BEGIN
+    -- Recuperar os IDs das músicas mais ouvidas pelo usuário no último mês
+    SELECT array_agg(music_ismn) INTO new_song_ids
+    FROM (
+        SELECT music_ismn, COUNT(*) AS count
+        FROM playedsongs
+        WHERE consumer_usuario_id = NEW.consumer_usuario_id
+        AND listened_at >= CURRENT_DATE - INTERVAL '1 month'
+        GROUP BY music_ismn
+        ORDER BY count DESC
+        LIMIT 10
+    ) AS subquery;
+
+    -- Obter o ID da playlist "top 10" do usuário
+    SELECT id INTO p_id 
+    FROM playlist 
+    WHERE name = NEW.consumer_usuario_id || ' top 10';
+
+    -- Remover as músicas anteriores da playlist "top 10"
+    DELETE FROM position_playlist WHERE playlist_id = p_id;
+
+    -- Inserir as novas músicas na playlist "top 10"
+    FOREACH song_id IN ARRAY new_song_ids
+    LOOP
+        INSERT INTO position_playlist (music_ismn, pos, playlist_id)
+        VALUES (song_id, index, p_id);
+        index := index + 1;
+    END LOOP;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Gatilho para registrar a música ouvida e atualizar a playlist "top 10"
+CREATE TRIGGER record_song_and_update_top_10_trigger
+AFTER INSERT ON playedsongs
+FOR EACH ROW
+EXECUTE FUNCTION record_song_and_update_top_10();

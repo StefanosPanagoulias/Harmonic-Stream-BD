@@ -1,0 +1,195 @@
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA PUBLIC;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO aulaspl;
+GRANT ALL ON SCHEMA public TO aulaspl;
+
+
+CREATE TABLE consumer (
+	subscription_time TIMESTAMP NOT NULL,
+	usuario_id	 INTEGER,
+	PRIMARY KEY(usuario_id)
+);
+
+CREATE TABLE artist (
+	stagename	 VARCHAR(512) NOT NULL,
+	usuario_id INTEGER,
+	PRIMARY KEY(usuario_id)
+);
+
+CREATE TABLE card (
+	id			 SERIAL,
+	expires_at		 DATE NOT NULL,
+	saldo		 INTEGER NOT NULL,
+	valor		 INTEGER NOT NULL,
+	admin_usuario_id	 INTEGER NOT NULL,
+	consumer_usuario_id INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE subscription (
+	id	 BIGSERIAL NOT NULL,
+	price	 INTEGER NOT NULL,
+	subs_time INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE recordlabel (
+	id	 BIGSERIAL,
+	name VARCHAR(512) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE playlist (
+	id	 BIGSERIAL,
+	name	 VARCHAR(512) NOT NULL,
+	isprivate	 BOOL NOT NULL,
+	usuario_id INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE music (
+	ismn		 BIGINT,
+	name		 VARCHAR(512) NOT NULL,
+	duration		 TIMESTAMP NOT NULL,
+	genre		 VARCHAR(512) NOT NULL,
+	releasedate	 DATE NOT NULL,
+	recordlabel_id	 BIGINT NOT NULL,
+	artist_usuario_id INTEGER NOT NULL,
+	PRIMARY KEY(ismn)
+);
+
+CREATE TABLE comment (
+	id			 BIGSERIAL,
+	comment		 VARCHAR(512) NOT NULL,
+	music_ismn		 BIGINT NOT NULL,
+	consumer_usuario_id INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE usuario (
+	email	 VARCHAR(512) NOT NULL,
+	username VARCHAR(512) NOT NULL,
+	address	 VARCHAR(512) NOT NULL,
+	password VARCHAR(512) NOT NULL,
+	id	 SERIAL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE admin (
+	usuario_id INTEGER,
+	PRIMARY KEY(usuario_id)
+);
+
+CREATE TABLE album (
+	id		 BIGSERIAL,
+	name	 VARCHAR(512) NOT NULL,
+	releasedate DATE NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE payment (
+	purchasedate	 DATE NOT NULL,
+	id		 SERIAL,
+	subscription_id BIGINT,
+	card_id	 INTEGER,
+	PRIMARY KEY(id,subscription_id,card_id)
+);
+
+CREATE TABLE activity (
+	listen_date	 TIMESTAMP NOT NULL,
+	id			 SERIAL,
+	consumer_usuario_id INTEGER,
+	music_ismn		 BIGINT,
+	PRIMARY KEY(id,consumer_usuario_id,music_ismn)
+);
+
+CREATE TABLE position (
+	position	 INTEGER NOT NULL,
+	album_id	 BIGINT NOT NULL,
+	music_ismn BIGINT,
+	PRIMARY KEY(music_ismn)
+);
+
+CREATE TABLE position_playlist (
+	pos	 INTEGER NOT NULL,
+	playlist_id BIGINT,
+	music_ismn	 BIGINT,
+	PRIMARY KEY(playlist_id,music_ismn)
+);
+
+CREATE TABLE playedsongs (
+	id			 SERIAL,
+	listened_at	 TIMESTAMP,
+	music_ismn		 BIGINT NOT NULL,
+	consumer_usuario_id INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE artist_music (
+	artist_usuario_id INTEGER,
+	music_ismn	 BIGINT,
+	PRIMARY KEY(artist_usuario_id,music_ismn)
+);
+
+CREATE TABLE comment_comment (
+	comment_id	 BIGINT,
+	comment_id1 BIGINT NOT NULL,
+	PRIMARY KEY(comment_id)
+);
+
+CREATE TABLE album_artist (
+	album_id		 BIGINT,
+	artist_usuario_id INTEGER,
+	PRIMARY KEY(album_id,artist_usuario_id)
+);
+
+CREATE TABLE recordlabel_artist (
+	recordlabel_id	 BIGINT,
+	artist_usuario_id INTEGER,
+	PRIMARY KEY(recordlabel_id,artist_usuario_id)
+);
+
+ALTER TABLE consumer ADD CONSTRAINT consumer_fk1 FOREIGN KEY (usuario_id) REFERENCES usuario(id);
+ALTER TABLE artist ADD UNIQUE (stagename);
+ALTER TABLE artist ADD CONSTRAINT artist_fk1 FOREIGN KEY (usuario_id) REFERENCES usuario(id);
+ALTER TABLE card ADD CONSTRAINT card_fk1 FOREIGN KEY (admin_usuario_id) REFERENCES admin(usuario_id);
+ALTER TABLE card ADD CONSTRAINT card_fk2 FOREIGN KEY (consumer_usuario_id) REFERENCES consumer(usuario_id);
+ALTER TABLE playlist ADD UNIQUE (name);
+ALTER TABLE playlist ADD CONSTRAINT playlist_fk1 FOREIGN KEY (usuario_id) REFERENCES usuario(id);
+ALTER TABLE music ADD CONSTRAINT music_fk1 FOREIGN KEY (recordlabel_id) REFERENCES recordlabel(id);
+ALTER TABLE music ADD CONSTRAINT music_fk2 FOREIGN KEY (artist_usuario_id) REFERENCES artist(usuario_id);
+ALTER TABLE comment ADD CONSTRAINT comment_fk1 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE comment ADD CONSTRAINT comment_fk2 FOREIGN KEY (consumer_usuario_id) REFERENCES consumer(usuario_id);
+ALTER TABLE usuario ADD UNIQUE (email, username);
+ALTER TABLE admin ADD CONSTRAINT admin_fk1 FOREIGN KEY (usuario_id) REFERENCES usuario(id);
+ALTER TABLE payment ADD CONSTRAINT payment_fk1 FOREIGN KEY (subscription_id) REFERENCES subscription(id);
+ALTER TABLE payment ADD CONSTRAINT payment_fk2 FOREIGN KEY (card_id) REFERENCES card(id);
+ALTER TABLE activity ADD CONSTRAINT activity_fk1 FOREIGN KEY (consumer_usuario_id) REFERENCES consumer(usuario_id);
+ALTER TABLE activity ADD CONSTRAINT activity_fk2 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE position ADD CONSTRAINT position_fk1 FOREIGN KEY (album_id) REFERENCES album(id);
+ALTER TABLE position ADD CONSTRAINT position_fk2 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE position_playlist ADD CONSTRAINT position_playlist_fk1 FOREIGN KEY (playlist_id) REFERENCES playlist(id);
+ALTER TABLE position_playlist ADD CONSTRAINT position_playlist_fk2 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE playedsongs ADD CONSTRAINT playedsongs_fk1 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE playedsongs ADD CONSTRAINT playedsongs_fk2 FOREIGN KEY (consumer_usuario_id) REFERENCES consumer(usuario_id);
+ALTER TABLE artist_music ADD CONSTRAINT artist_music_fk1 FOREIGN KEY (artist_usuario_id) REFERENCES artist(usuario_id);
+ALTER TABLE artist_music ADD CONSTRAINT artist_music_fk2 FOREIGN KEY (music_ismn) REFERENCES music(ismn);
+ALTER TABLE comment_comment ADD CONSTRAINT comment_comment_fk1 FOREIGN KEY (comment_id) REFERENCES comment(id);
+ALTER TABLE comment_comment ADD CONSTRAINT comment_comment_fk2 FOREIGN KEY (comment_id1) REFERENCES comment(id);
+ALTER TABLE album_artist ADD CONSTRAINT album_artist_fk1 FOREIGN KEY (album_id) REFERENCES album(id);
+ALTER TABLE album_artist ADD CONSTRAINT album_artist_fk2 FOREIGN KEY (artist_usuario_id) REFERENCES artist(usuario_id);
+ALTER TABLE recordlabel_artist ADD CONSTRAINT recordlabel_artist_fk1 FOREIGN KEY (recordlabel_id) REFERENCES recordlabel(id);
+ALTER TABLE recordlabel_artist ADD CONSTRAINT recordlabel_artist_fk2 FOREIGN KEY (artist_usuario_id) REFERENCES artist(usuario_id);
+
+
+
+
+
+INSERT into usuario values('admin@gmail.com','admin','888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword');
+INSERT into admin values(1);
+
+INSERT into subscription (price, subs_time) VALUES('7', '1');
+INSERT into subscription (price, subs_time) VALUES('21', '3');
+INSERT into subscription (price, subs_time) VALUES('42', '6');
+
+INSERT INTO recordlabel (name) VALUES('sony records');
