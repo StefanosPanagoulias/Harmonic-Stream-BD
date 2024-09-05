@@ -1,0 +1,630 @@
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:05:41] "[35m[1mPUT /usuarios/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:07:04] "[32mPUT /auth%20user HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:07:04] "[35m[1mPUT /auth%20user/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:07:33] "[32mPUT /auth_user HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:07:33] "[35m[1mPUT /auth_user/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:30:31] "[35m[1mPUT /usuarios/ HTTP/1.1[0m" 500 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:39:23] "[35m[1mPUT /usuarios/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:payload: {'email': 'stefanos.panagoulias@soul8.com', 'password': 'StefanosGIT'}
+ERROR:logger:permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:40:45] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'diego@gmail.com', 'password': 'senha'}
+ERROR:logger:permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:42:04] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'stefanos.panagoulias@soul8.com', 'username': 'StefanosGIT', 'password': 'StefanosGIT', 'address': 'Av Elisio de Moura', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+ERROR:logger:error: permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:44:18] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'stefanos.panagoulias@soul8.com', 'username': 'StefanosGIT', 'password': 'StefanosGIT', 'address': 'Av Elisio de Moura', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+ERROR:logger:error: permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:55:28] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'stefanos.panagoulias@soul8.com', 'username': 'StefanosGIT', 'password': 'StefanosGIT', 'address': 'Av Elisio de Moura', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+ERROR:logger:error: permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 15:57:29] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'stefanos.panagoulias@soul8.com', 'password': 'StefanosGIT'}
+ERROR:logger:permission denied for table usuario
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:00:50] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:04:39] "[35m[1mPUT /usuarios/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:07:19] "[35m[1mPUT /usuarios/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:payload: {'email': 'stefanos.panagoulias@soul8.com', 'password': 'StefanosGIT'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:08:52] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'stefanos.panagoulias@soul8.com', 'username': 'StefanosGIT', 'password': 'StefanosGIT', 'address': 'Av Elisio de Moura', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['StefanosGIT', 'stefanos.panagoulias@soul8.com', 'StefanosGIT', 'Av Elisio de Moura']
+ERROR:logger:error: schema "new" does not exist
+LINE 2:     VALUES (NEW.usuario_id  ' top 10', TRUE, NEW.usuario_id)
+                    ^
+QUERY:  INSERT INTO playlist (name, isprivate, usuario_id)
+    VALUES (NEW.usuario_id  ' top 10', TRUE, NEW.usuario_id)
+CONTEXT:  função PL/pgSQL create_top_10_playlist() linha 3 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:09:32] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin1@gmail.com', 'password': 'adminBadass'}
+ERROR:logger:module 'jwt' has no attribute 'encode'
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:13:02] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:payload: {'email': 'admin1@gmail.com', 'password': 'adminBadass'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:15:37] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:19:14] "GET /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:19:36] "GET /song/done HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:20:43] "GET /artist_info/2 HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'user_2@gmail.com', 'username': 'User2', 'password': 'Password2', 'address': 'happyTown, 2', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['User2', 'user_2@gmail.com', 'Password2', 'happyTown, 2']
+ERROR:logger:error: schema "new" does not exist
+LINE 2:     VALUES (NEW.usuario_id  ' top 10', TRUE, NEW.usuario_id)
+                    ^
+QUERY:  INSERT INTO playlist (name, isprivate, usuario_id)
+    VALUES (NEW.usuario_id  ' top 10', TRUE, NEW.usuario_id)
+CONTEXT:  função PL/pgSQL create_top_10_playlist() linha 3 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:41:57] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'user_2@gmail.com', 'username': 'User2', 'password': 'Password2', 'address': 'happyTown, 2', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['User2', 'user_2@gmail.com', 'Password2', 'happyTown, 2']
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 16:57:31] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@gmail.com', 'username': 'Artist1', 'password': 'Password1', 'address': 'happyTown, 2', 'role': 'artist'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:08:15] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@gmail.com', 'username': 'Artist1', 'password': 'Password1', 'address': 'happyTown, 2', 'role': 'artist'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:08:25] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@gmail.com', 'username': 'Artist1', 'password': 'Password1', 'address': 'happyTown, 2', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:09:53] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'ChesterB@gmail.com', 'password': 'senha'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:12:07] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'consumer1@example.com', 'username': 'consumer1', 'password': 'consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['consumer1', 'consumer1@example.com', 'consumer1', '123 Main Street, Springfield']
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:32:22] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'consumer1@example.com', 'username': 'consumer1', 'password': 'consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['consumer1', 'consumer1@example.com', 'consumer1', '123 Main Street, Springfield']
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:34:26] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@example.com', 'username': 'artist1', 'password': 'artist1', 'address': '456 Music Lane, Nashville', 'role': 'artist', 'stagename': 'StageName1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:36:51] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@example.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:41:07] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@gmail.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:41:21] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@example.com', 'username': 'artist1', 'password': 'artist1', 'address': '456 Music Lane, Nashville', 'role': 'artist', 'stagename': 'StageName1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:45:10] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@example.com', 'username': 'artist1', 'password': 'artist1', 'address': '456 Music Lane, Nashville', 'role': 'artist', 'stagename': 'StageName1'}
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:current_user['results'][4]: 1
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:isAdmin: True
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['artist1', 'artist1@example.com', 'artist1', '456 Music Lane, Nashville']
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:45:20] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@example.com', 'password': 'artist1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:46:18] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@example.com', 'password': 'artist1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:46:26] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:55:42] "PUT /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('StageName1', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+ERROR:logger:error: invalid input syntax for type timestamp: "0:6:24"
+LINE 1: ...ist_usuario_id) VALUES ('123456789','Una Mattina','0:6:24','...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:56:05] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('StageName1', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['123456789', 'Una Mattina', '0:6:24', 'Classical', '10/12/2004', '1', 3]
+INFO:logger:artist_values: [3, (123456789,)]
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 17:58:03] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('StageName1', 3)
+INFO:logger:PAYLOAD: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '4/15/2004'}
+ERROR:logger:error: date/time field value out of range: "4/15/2004"
+LINE 1: ...'987654321','Nuvole Bianche','0:6:05','Classical','4/15/2004...
+                                                             ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 18:03:45] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('StageName1', 3)
+INFO:logger:PAYLOAD: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '15/04/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['987654321', 'Nuvole Bianche', '0:6:05', 'Classical', '15/04/2004', '1', 3]
+INFO:logger:artist_values: [3, (987654321,)]
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 18:04:17] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('StageName1', 3)
+INFO:logger:PAYLOAD: {'name': 'Divenire', 'releasedate': '10/10/2021', 'songs': [{'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}, {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '4/15/2004', 'position': 2, 'recordlabel_id': '1'}]}
+INFO:logger:Logging song: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}
+INFO:logger:Logging song: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '4/15/2004', 'position': 2, 'recordlabel_id': '1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 18:09:47] "POST /album/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 18:58:25] "PUT /usuario/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'consumer1@example.com', 'password': 'consumer1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 18:58:49] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:47:58] "[31m[1mPUT /artist_info/3 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:48:10] "GET /artist_info/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:49:51] "GET /song/Una HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:50:11] "GET /song/Nuvole HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:50:17] "GET /song/Mattina HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'period': 'quarter', 'cards': [1, 2, 3]}
+INFO:logger:subs_id: 2, price: 21 ASHUASHUSH
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 19:57:33] "POST /subscription/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:02:09] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@gmail.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:02:29] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'amount': 3, 'cards': [{'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}]}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:04:52] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:05:15] "[32mPOST /card HTTP/1.1[0m" 308 -
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:PAYLOAD: {'amount': 3, 'cards': [{'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '3'}]}
+ERROR:logger:error: insert or update on table "card" violates foreign key constraint "card_fk2"
+DETAIL:  Key (consumer_usuario_id)=(3) is not present in table "consumer".
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:05:15] "POST /card/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:07:03] "[32mPOST /card HTTP/1.1[0m" 308 -
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:PAYLOAD: {'amount': 3, 'cards': [{'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}]}
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 2, 'valor', 2, 'consumer_usuario_id', 2, 'admin_usuario_id', 2, 'saldo', 2]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 3, 'valor', 3, 'consumer_usuario_id', 3, 'admin_usuario_id', 3, 'saldo', 3]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 4, 'valor', 4, 'consumer_usuario_id', 4, 'admin_usuario_id', 4, 'saldo', 4]
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:07:05] "POST /card/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'consumer1@example.com', 'password': 'consumer1'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:10:08] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'period': 'quarter', 'cards': [1, 2, 3]}
+INFO:logger:subs_id: 2, price: 21 ASHUASHUSH
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:11:23] "POST /subscription/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'period': 'quarter', 'cards': [2, 3, 4]}
+INFO:logger:subs_id: 2, price: 21 ASHUASHUSH
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:12:05] "POST /subscription/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:24:02] "[32mPOST /playlist HTTP/1.1[0m" 308 -
+INFO:logger:PAYLOAD: {'name': 'playlist1', 'isprivate': 'private', 'songs': ['123456789', '987654321']}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:24:03] "POST /playlist/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'comment': 'My dream is to go to a Ludovico concert!'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:29:09] "POST /comments/123456789 HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'comment': 'I already went! It was super!'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:32:56] "POST /comments/123456789/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:18] "[32mPUT /123456789 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:19] "PUT /123456789/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:31] "[32mPUT /987654321 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:32] "PUT /987654321/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:34] "[32mPUT /987654321 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 20:37:35] "PUT /987654321/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'consumer1@example.com', 'username': 'consumer1', 'password': 'consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': None}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 21:51:04] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'consumer1@example.com', 'username': 'consumer1', 'password': 'consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['consumer1', 'consumer1@example.com', 'consumer1', '123 Main Street, Springfield']
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 21:52:59] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@gmail.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2024 22:07:01] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'artist1@gmail.com', 'username': 'artist1', 'password': 'artist1', 'address': 'Springfield, 123', 'role': 'artist', 'Stagename': 'Ludovico_Einaudi'}
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:current_user['results'][4]: 1
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:isAdmin: True
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2024 21:29:32] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@example.com', 'username': 'artist1', 'password': 'artist1', 'address': 'Springfield, 123', 'role': 'artist', 'stagename': 'Ludovico_Einaudi'}
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:current_user['results'][4]: 1
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:isAdmin: True
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['artist1', 'artist1@example.com', 'artist1', 'Springfield, 123']
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2024 21:32:29] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:PAYLOAD: {'amount': 3, 'cards': [{'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}]}
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 1, 'valor', 1, 'consumer_usuario_id', 1, 'admin_usuario_id', 1, 'saldo', 1]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 2, 'valor', 2, 'consumer_usuario_id', 2, 'admin_usuario_id', 2, 'saldo', 2]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 3, 'valor', 3, 'consumer_usuario_id', 3, 'admin_usuario_id', 3, 'saldo', 3]
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:06:47] "POST /card/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'consumer1@example.com', 'password': 'consumer1'}
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:42:04] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:id: 2
+INFO:logger:row: None
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:50:41] "POST /song/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:52:45] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@example.com', 'password': 'artist1'}
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:52:54] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+ERROR:logger:error: invalid input syntax for type timestamp: "0:6:24"
+LINE 1: ...ist_usuario_id) VALUES ('123456789','Una Mattina','0:6:24','...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:58:16] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+ERROR:logger:error: invalid input syntax for type timestamp: "0:6:24"
+LINE 1: ...ist_usuario_id) VALUES ('123456789','Una Mattina','0:6:24','...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:58:50] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+ERROR:logger:error: invalid input syntax for type timestamp: "0:6:24"
+LINE 1: ...ist_usuario_id) VALUES ('123456789','Una Mattina','0:6:24','...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 13:59:29] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['123456789', 'Una Mattina', '0:6:24', 'Classical', '10/12/2004', '1', 3]
+INFO:logger:artist_values: [3, (123456789,)]
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 14:00:13] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '15/04/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['987654321', 'Nuvole Bianche', '0:6:05', 'Classical', '15/04/2004', '1', 3]
+INFO:logger:artist_values: [3, (987654321,)]
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 14:00:31] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'name': 'Divenire', 'releasedate': '10/10/2021', 'songs': [{'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}, {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '4/15/2004', 'position': 2, 'recordlabel_id': '1'}]}
+INFO:logger:Logging song: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}
+INFO:logger:Logging song: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '4/15/2004', 'position': 2, 'recordlabel_id': '1'}
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 14:12:41] "POST /album/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'consumer1@example.com', 'password': 'consumer1'}
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 14:28:01] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 17:29:30] "GET /artist_info/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2024 18:06:51] "GET /song/Mattina HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'period': 'quarter', 'cards': [1, 2, 3]}
+INFO:logger:subs_id: 2, price: 21 ASHUASHUSH
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 15:57:14] "POST /subscription/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'name': 'playlist1', 'isprivate': 'private', 'songs': ['123456789', '987654321']}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:04:02] "POST /playlist/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'comment': 'My dream is to go to a Ludovico concert!'}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:16:19] "POST /comments/123456789 HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'comment': "That sounds amazing! Ludovico's music is so captivating live, it must be an unforgettable experience! Hope you get to see him perform soon!"}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:20:44] "POST /comments/123456789/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:30:01] "[31m[1mPUT /comments/123456789 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:30:17] "[32mPUT /123456789 HTTP/1.1[0m" 308 -
+ERROR:logger:error: schema "new" does not exist
+LINE 2:     WHERE name = NEW.consumer_usuario_id  ' top 10'
+                         ^
+QUERY:  SELECT id           FROM playlist 
+    WHERE name = NEW.consumer_usuario_id  ' top 10'
+CONTEXT:  função PL/pgSQL record_song_and_update_top_10() linha 20 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:30:17] "PUT /123456789/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:32:09] "[32mPUT /123456789 HTTP/1.1[0m" 308 -
+ERROR:logger:error: schema "new" does not exist
+LINE 2:     WHERE name = NEW.consumer_usuario_id  ' top 10'
+                         ^
+QUERY:  SELECT id           FROM playlist 
+    WHERE name = NEW.consumer_usuario_id  ' top 10'
+CONTEXT:  função PL/pgSQL record_song_and_update_top_10() linha 20 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:32:09] "PUT /123456789/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:37:44] "[32mPUT /123456789 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:37:44] "PUT /123456789/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:38:40] "[32mPUT /987654321 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:38:41] "PUT /987654321/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:38:53] "[32mPUT /987654321 HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 16:38:54] "PUT /987654321/ HTTP/1.1" 200 -
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:21:38] "[33mGET /endpoint_name_described_in_the_ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:21:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:PAYLOAD: {'email': 'Consumer1@example.com', 'username': 'Consumer1', 'password': 'Consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['Consumer1', 'Consumer1@example.com', 'Consumer1', '123 Main Street, Springfield']
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:29:40] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\stefa\\Desktop\\UC\\BD\\ENTREGA_FINAL_BD\\ENTREGA_FINAL_BD\\demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:API v1.0 online: http://127.0.0.1:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-472-932
+INFO:logger:PAYLOAD: {'email': 'Consumer1@example.com', 'username': 'Consumer1', 'password': 'Consumer1', 'address': '123 Main Street, Springfield', 'role': 'consumer'}
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:current_user['results'][4]: n
+INFO:logger:isAdmin: False
+INFO:logger:current_user: {'status': 400, 'results': 'Token missing'}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['Consumer1', 'Consumer1@example.com', 'Consumer1', '123 Main Street, Springfield']
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:31:26] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@gmail.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:38:08] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'admin@gmail.com', 'password': 'strongpassword'}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:41:26] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:PAYLOAD: {'email': 'artist1@example.com', 'username': 'artist1', 'password': 'artist1', 'address': 'Springfield, 123', 'role': 'artist', 'stagename': 'Ludovico_Einaudi'}
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:current_user['results'][4]: 1
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:isAdmin: True
+INFO:logger:current_user: {'status': 200, 'results': ('admin@gmail.com', 'admin', '888 Boylston Street, Suite 055, Boston, MA 02116', 'strongpassword', 1)}
+INFO:logger:statement: INSERT INTO usuario (username,email,password,address) VALUES (%s,%s,%s,%s) RETURNING id
+INFO:logger:values: ['artist1', 'artist1@example.com', 'artist1', 'Springfield, 123']
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:43:56] "POST /usuarios/ HTTP/1.1" 200 -
+INFO:logger:id: 1
+INFO:logger:row: (1,)
+INFO:logger:PAYLOAD: {'amount': 3, 'cards': [{'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}, {'expires_at': '2025/05/20', 'valor': '10', 'consumer_usuario_id': '2'}]}
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 1, 'valor', 1, 'consumer_usuario_id', 1, 'admin_usuario_id', 1, 'saldo', 1]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 2, 'valor', 2, 'consumer_usuario_id', 2, 'admin_usuario_id', 2, 'saldo', 2]
+INFO:logger:statement: INSERT INTO card (admin_usuario_id,expires_at,saldo,valor,consumer_usuario_id) VALUES (%s,%s,%s,%s,%s) RETURNING id
+INFO:logger:values: [1, '2025/05/20', '10', '10', '2']
+INFO:logger:card_values: ['expires_at', 3, 'valor', 3, 'consumer_usuario_id', 3, 'admin_usuario_id', 3, 'saldo', 3]
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:47:25] "POST /card/ HTTP/1.1" 200 -
+INFO:logger:payload: {'email': 'artist1@example.com', 'password': 'artist1'}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:50:27] "PUT /usuarios/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '10/12/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['123456789', 'Una Mattina', '0:6:24', 'Classical', '10/12/2004', '1', 3]
+INFO:logger:artist_values: [3, (123456789,)]
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:52:40] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'recordlabel_id': '1', 'releasedate': '15/04/2004'}
+INFO:logger:statement: INSERT INTO music (ismn,name,duration,genre,releasedate,recordlabel_id,artist_usuario_id) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING ismn
+INFO:logger:values: ['987654321', 'Nuvole Bianche', '0:6:05', 'Classical', '15/04/2004', '1', 3]
+INFO:logger:artist_values: [3, (987654321,)]
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:54:20] "POST /song/ HTTP/1.1" 200 -
+INFO:logger:id: 3
+INFO:logger:row: ('Ludovico_Einaudi', 3)
+INFO:logger:PAYLOAD: {'name': 'Divenire', 'releasedate': '10/10/2021', 'songs': [{'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}, {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '15/04/2004', 'position': 2, 'recordlabel_id': '1'}]}
+INFO:logger:Logging song: {'ismn': '123456789', 'name': 'Una Mattina', 'duration': '0:6:24', 'genre': 'Classical', 'releasedate': '10/12/2004', 'position': 1, 'recordlabel_id': '1'}
+INFO:logger:Logging song: {'ismn': '987654321', 'name': 'Nuvole Bianche', 'duration': '0:6:05', 'genre': 'Classical', 'releasedate': '15/04/2004', 'position': 2, 'recordlabel_id': '1'}
+INFO:werkzeug:127.0.0.1 - - [05/Sep/2024 20:55:48] "POST /album/ HTTP/1.1" 200 -
