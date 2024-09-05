@@ -57,7 +57,7 @@ The project is organized as follows:
 - Python 3.x
 - PostgreSQL
 - pgAdmin4
-- Postman (optional, for testing the API)
+- Postman
 
 ### Setup Steps
 
