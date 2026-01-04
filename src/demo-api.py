@@ -18,7 +18,7 @@ StatusCodes = {
     'internal_error': 500
 }
 
-app.config['SECRET_KEY'] = 'e1646d21883af2d2b7d4759d222be389'
+app.config['SECRET_KEY'] = 
 
 
 def flatten_list(nested_list):
